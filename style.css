@@ -1,4 +1,4 @@
-@charset "UFT-8";
+@charset "UTF-8";
 * {
     margin: 0px;
     padding: 0px;
@@ -44,13 +44,19 @@ header {
 }
 
 #imagem {
+    display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color: yellow;
-    
+}
+
+#foto {
+    background-repeat: no-repeat;
+    background-size: cover;
+
     border-radius: 50%;
-    width: 70%;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+
 }
 
 footer{
